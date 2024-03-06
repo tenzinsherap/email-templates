@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  /* Basic email CSS */
+  body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: rgb(171, 170, 170);
+    -webkit-text-size-adjust: none;
+  }
+  .email-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    /* More styles here */
+  }
+  .banner {
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically if needed */
+    padding-top: 5%;
+  }
+  .banner img{ 
+    max-width: 75%; /* Make image responsive */
+    height: auto; /* Maintain aspect ratio */
+  }
+  .email-container p, .email-container h5{ 
+    font-family: 'Suisse-Light', sans-serif; /* Fallback to sans-serif */
+  }
+
+.content{ 
+    margin-top: 3%;
+    margin-left: 9%; 
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+    margin-bottom: 7%;
+}
+
+.content img{ 
+    width: 30px; 
+    height: auto; 
+}
+
+.header h3{ 
+    font-family: 'Suisse-Light', sans-serif; /* Fallback to sans-serif */
+    text-align: left;
+    margin-left: 10%; 
+    margin-right: 10%; 
+    margin-bottom: 7%; 
+}
+
+.header p { 
+    font-family: 'Suisse-Light', sans-serif; /* Fallback to sans-serif */
+    text-align: left;
+    margin-left: 10%; 
+    margin-right: 10%; 
+   
+    font-size: 10px;
+    padding-top: 5px; /* Add more padding on top */
+    padding-bottom: 1px; /* Add more padding on bottom */
+}
+
+.disclosure { 
+    font-size: 1px; /* Make the font size smaller */
+    padding-top: 20px; /* Increase padding on top */
+    padding-bottom: 20px; /* Increase padding on bottom */
+}
+.header .disclosure { 
+    font-size: 6px !important; /* Make the font size smaller and ensure it takes precedence */
+    padding-top: 20px; /* Increase padding on top */
+    padding-bottom: 20px; /* Increase padding on bottom */
+}
+.contact h3{ 
+    text-align: center;
+    margin: 0; /* Remove default margin */
+    padding: 20px 0 10px 0; /* Add some padding around the text */
+    font-family: 'Suisse-Light', sans-serif;
+}
+
+/* Centering the social icons and contact information */
+.contact-info {
+    text-align: center; /* Center everything within the div */
+    padding: 20px 20px; /* Adjust padding as needed */
+    color: black;
+}
+
+.contact-info a {
+    margin: 0 5px; /* Space out the icons */
+}
+
+.contact-info p {
+    font-size: 10px;
+    margin: 10px 0; /* Space between icons and text */
+}
+/* Centering the social icons and contact information */
+.contact-info {
+    text-align: center; /* Center everything within the div */
+    padding: 20px 20px; /* Adjust padding as needed */
+    color: black;
+}
+
+.icon-container {
+    display: inline-block; /* Align icons in a row */
+    width: 40px; /* Set a fixed width */
+    height: 40px; /* Set a fixed height */
+    vertical-align: middle; /* Align icons vertically in the middle */
+    margin: 0 5px; /* Space out the icons */
+}
+
+.icon-container img {
+    width: 15px;
+    height: px;
+    object-fit: contain;
+    vertical-align: middle; /* Align the image vertically in the middle */
+}
+.no-wrap {
+    white-space: nowrap;
+    overflow: hidden; /* Prevents the text from overflowing the container */
+    text-overflow: ellipsis; /* Adds an ellipsis if the text overflows */
+}
+.contact-info p a { 
+  color: inherit;
+  text-decoration: none;
+}
+.contact-info p a:hover{ 
+  text-decoration: underline;
+}
+</style>
+</head>
+<body>
+  <div class="email-container">
+    <!-- Your email content here -->
+    <div class="banner">
+      <img src="assets/PSP-logo.png" alt="Logo">
+    </div>
+
+    <!-- Subject -->
+    <div class="content"> 
+        <img src="assets/bookmark.png" alt="">  
+        <h5>Re: Your LifeStyle Blog has been approved at Pantsuit Professionals</h5>
+    </div>
+
+    <div class="header">
+        <h3>Hello,</h3>
+        <p >Your Blog has been approved for posting at Pantsuit Professionals LifeStyle!</p>
+        <p> If you have any questions about your Blog Post, contact: <a href=mailto:lifestyle@pantsuitprofessionals.com> lifestyle@pantsuitprofessionals.com </a> </p>
+
+
+
+        <br> 
+        <p>Thank you.</p> 
+        <p>Pantsuit Professionals LifeStyle Team</p>
+        <br>
+        <p class = "disclosure">Disclosure: Pantsuit Professionals LLC is held harmless for/by any and all personal or business data or financial (credit card, check, wired funds) information, hack, damage or injury as a result of compromised personal or business information, posted on Pantsuit Professionals website or app platforms and as a result of you and or your business, business representative visiting/using the Pantsuit Professionals website or app platform and any third party payment gateway software (authorize.net or PayPal) used by Pantsuit Professionals website or app platforms. If you received this email in error, please expunge it. Thank you.</p>
+    </div>
+
+    <div class="contact-info">
+        <div class="icon-container"><a href="https://www.facebook.com/pantsuitprofessionalsnyc/"><img src="assets/facebook.jpeg" alt="" /></a></div>
+        <div class="icon-container"><a href="https://twitter.com/i/flow/login?redirect_after_login=%2Fpantsuitprofesh"><img src="assets/twitter.png" alt="" class="small-icon" /></a></div>
+        <div class="icon-container"><a href="https://www.youtube.com/channel/UC2TJuGVCb8MVMboFgafjnRw"><img src="assets/youtube.png" alt="" /></a></div>
+        <div class="icon-container"><a href="https://www.linkedin.com/company/pantsuitprofessionalsnyc/mycompany/"><img src="assets/linkedin.png" alt="" /></a></div>
+        <div class="icon-container"><a href="https://www.instagram.com/pantsuitpro/"><img src="assets/instagram.png" alt="" class="small-icon" /></a></div>
+        <div class="icon-container"><a href="https://www.pinterest.com/pantsuitprofessionals/"><img src="assets/pinterest.jpeg" alt="" /></a></div>
+        
+        
+     <p> <a href = "https://www.pantsuitprofessionals.com/">pantsuitprofessionals.com</a> </p>
+     <p> <a href=mailto:info@pantsuitprofessionals.com> Unsubscribe</a>| Copyright 2024 | Contact </p>
+    </div>
+  </div>
+</body>
+</html>
