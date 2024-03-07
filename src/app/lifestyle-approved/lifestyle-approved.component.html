@@ -22,10 +22,10 @@
     display: flex; /* Use flexbox */
     justify-content: center; /* Center horizontally */
     align-items: center; /* Center vertically if needed */
-    padding-top: 5%;
+    padding-top: 7%;
   }
   .banner img{ 
-    max-width: 75%; /* Make image responsive */
+    max-width: 60%; /* Make image responsive */
     height: auto; /* Maintain aspect ratio */
   }
   .email-container p, .email-container h5{ 
@@ -38,7 +38,7 @@
     display: flex;
     align-items: center;
     gap: 10px; 
-    margin-bottom: 7%;
+    margin-bottom: 3%;
 }
 
 .content img{ 
@@ -46,12 +46,25 @@
     height: auto; 
 }
 
+@media screen and (max-width: 414px) {
+    .content h5 {
+      font-size: 14px; /* Reduce the font size on smaller screens */
+    }
+
+    /* You can also adjust other properties as needed, e.g., margins, to better fit the smaller viewport */
+    .content {
+      margin-left: 3%; /* Reduce side margins */
+      margin-right: 4%;
+      gap: 5px; /* Reduce gap between elements */
+    }
+  }
+
 .header h3{ 
     font-family: 'Suisse-Light', sans-serif; /* Fallback to sans-serif */
     text-align: left;
     margin-left: 10%; 
     margin-right: 10%; 
-    margin-bottom: 7%; 
+    margin-bottom: 3%; 
 }
 
 .header p { 
@@ -72,8 +85,8 @@
 }
 .header .disclosure { 
     font-size: 6px !important; /* Make the font size smaller and ensure it takes precedence */
-    padding-top: 20px; /* Increase padding on top */
-    padding-bottom: 20px; /* Increase padding on bottom */
+    padding-top: 5px; /* Increase padding on top */
+    padding-bottom: 5px; /* Increase padding on bottom */
 }
 .contact h3{ 
     text-align: center;
@@ -106,10 +119,10 @@
 
 .icon-container {
     display: inline-block; /* Align icons in a row */
-    width: 40px; /* Set a fixed width */
-    height: 40px; /* Set a fixed height */
+    width: 20px; /* Set a fixed width */
+    height: 20px; /* Set a fixed height */
     vertical-align: middle; /* Align icons vertically in the middle */
-    margin: 0 5px; /* Space out the icons */
+    margin: 0 2px; /* Space out the icons */
 }
 
 .icon-container img {
@@ -149,10 +162,7 @@
         <h3>Hello,</h3>
         <p >Your Blog has been approved for posting at Pantsuit Professionals LifeStyle!</p>
         <p> If you have any questions about your Blog Post, contact: <a href=mailto:lifestyle@pantsuitprofessionals.com> lifestyle@pantsuitprofessionals.com </a> </p>
-
-
-
-        <br> 
+        <h3> </h3>
         <p>Thank you.</p> 
         <p>Pantsuit Professionals LifeStyle Team</p>
         <br>
@@ -169,7 +179,7 @@
         
         
      <p> <a href = "https://www.pantsuitprofessionals.com/">pantsuitprofessionals.com</a> </p>
-     <p> <a href=mailto:info@pantsuitprofessionals.com> Unsubscribe</a>| Copyright 2024 | Contact </p>
+     <p> <a href=mailto:info@pantsuitprofessionals.com> Unsubscribe</a>| Copyright 2024 |<a href=mailto:info@pantsuitprofessionals.com>Contact</a> </p>
     </div>
   </div>
 </body>

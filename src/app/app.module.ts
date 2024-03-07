@@ -16,6 +16,7 @@ import { JoinPremiumMembershipComponent } from './join-premium-membership/join-p
 import { PremiumRenewalComponent } from './premium-renewal/premium-renewal.component';
 import { EventDeclineComponent } from './event-decline/event-decline.component';
 import { LifestyleDeclineComponent } from './lifestyle-decline/lifestyle-decline.component';
+import { EventRefundComponent } from './event-refund/event-refund.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { LifestyleDeclineComponent } from './lifestyle-decline/lifestyle-decline
     JoinPremiumMembershipComponent,
     PremiumRenewalComponent,
     EventDeclineComponent,
-    LifestyleDeclineComponent
+    LifestyleDeclineComponent,
+    EventRefundComponent
   ],
   imports: [
     BrowserModule,

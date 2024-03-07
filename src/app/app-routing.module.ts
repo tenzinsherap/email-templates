@@ -14,6 +14,7 @@ import { JoinPremiumMembershipComponent } from './join-premium-membership/join-p
 import { PremiumRenewalComponent } from './premium-renewal/premium-renewal.component';
 import { EventDeclineComponent } from './event-decline/event-decline.component';
 import { LifestyleDeclineComponent } from './lifestyle-decline/lifestyle-decline.component';
+import { EventRefundComponent } from './event-refund/event-refund.component';
 
 const routes: Routes = [
   {path: '', component:HomeComponent},
@@ -28,7 +29,8 @@ const routes: Routes = [
   {path:'join-premium-membership', component:JoinPremiumMembershipComponent}, 
   {path: 'premium-renewal', component:PremiumRenewalComponent},
   {path: 'event-decline', component:EventDeclineComponent},
-  {path:'lifestyle-decline', component:LifestyleDeclineComponent}
+  {path:'lifestyle-decline', component:LifestyleDeclineComponent}, 
+  {path: 'event-refund', component:EventRefundComponent}
 
 
 ];
