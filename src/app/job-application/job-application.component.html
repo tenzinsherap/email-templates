@@ -46,6 +46,19 @@
     height: auto; 
 }
 
+@media screen and (max-width: 414px) {
+    .content h5 {
+      font-size: 14px; /* Reduce the font size on smaller screens */
+    }
+
+    /* You can also adjust other properties as needed, e.g., margins, to better fit the smaller viewport */
+    .content {
+      margin-left: 8%; /* Reduce side margins */
+      margin-right: 4%;
+      gap: 5px; /* Reduce gap between elements */
+    }
+  }
+
 .header h3{ 
     font-family: 'Suisse-Light', sans-serif; /* Fallback to sans-serif */
     text-align: left;
@@ -130,6 +143,14 @@
 .contact-info p a:hover{ 
   text-decoration: underline;
 }
+
+.header ul { 
+    font-family: 'Suisse-Light', sans-serif; /* Fallback to sans-serif */
+    text-align: left;
+    margin-left: 5%; 
+    margin-right: 5%; 
+    font-size: 10px;
+}
 </style>
 </head>
 <body>
@@ -142,17 +163,25 @@
     <!-- Subject -->
     <div class="content"> 
         <img src="assets/bookmark.png" alt="">  
-        <h5>Re: Your Job post Renewal notification </h5>
+        <h5> You have received Job Applicants for your Job post(s) at Pantsuit Professionals, <br>
+        view Applicants now!  </h5>
     </div>
 
     <div class="header">
         <h3>Hello,</h3>
-        <p>Your Job post will automatically be renewed in 10 days. To stop the renewal of the Job post,login at: https://www.pantsuitprofessionals.com, then visit My Profile at Settings select “cancel”.</p>
-        <p>Failure to cancel the renewal will automatically renew your Job post.</p>
-        <p>If you have any questions about your Job post renewal, contact: <a href=mailto:jobs@pantsuitprofessionals.com> jobs@pantsuitprofessionals.com </a></p> 
+        <p>Just a heads up, you have received Job Applicants for your Job post(s) at Pantsuit Professionals.</p>
+        <p> Instructions to view your Job Applicants: </p>
+        <ul> 
+            <li> Login into your account at <a href = "https://www.pantsuitprofessionals.com/"> pantsuitprofessionals.com </a></li>
+            <li> Click on your image at the top right corner of header at the website </li>
+            <li> Click on My profile  </li>
+            <li> Click on My applications </li>
+        </ul>
+
+        <p> If you have any questions, contact: <a href=mailto:jobs@pantsuitprofessionals.com> jobs@pantsuitprofessionals.com </a> </p>
         <h3> </h3>
-        <p>Thank you </p> 
-        <p>Pantsuit Professionals Jobs Team </p>
+        <p>Thank you.</p> 
+        <p>Pantsuit Professionals Jobs Team</p>
         <br>
         <p class = "disclosure">Disclosure: Pantsuit Professionals LLC is held harmless for/by any and all personal or business data or financial (credit card, check, wired funds) information, hack, damage or injury as a result of compromised personal or business information, posted on Pantsuit Professionals website or app platforms and as a result of you and or your business, business representative visiting/using the Pantsuit Professionals website or app platform and any third party payment gateway software (authorize.net or PayPal) used by Pantsuit Professionals website or app platforms. If you received this email in error, please expunge it. Thank you.</p>
     </div>
@@ -168,6 +197,7 @@
         
      <p> <a href = "https://www.pantsuitprofessionals.com/">pantsuitprofessionals.com</a> </p>
      <p> <a href=mailto:info@pantsuitprofessionals.com> Unsubscribe</a>| Copyright 2024 |<a href=mailto:info@pantsuitprofessionals.com>Contact</a> </p>
+
     </div>
   </div>
 </body>
