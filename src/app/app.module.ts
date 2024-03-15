@@ -19,6 +19,7 @@ import { LifestyleDeclineComponent } from './lifestyle-decline/lifestyle-decline
 import { EventRefundComponent } from './event-refund/event-refund.component';
 import { MembershipChangeComponent } from './membership-change/membership-change.component';
 import { JobApplicationComponent } from './job-application/job-application.component';
+import { ViewEventComponent } from './view-event/view-event.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { JobApplicationComponent } from './job-application/job-application.compo
     LifestyleDeclineComponent,
     EventRefundComponent,
     MembershipChangeComponent,
-    JobApplicationComponent
+    JobApplicationComponent,
+    ViewEventComponent
   ],
   imports: [
     BrowserModule,
