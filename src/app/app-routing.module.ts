@@ -18,6 +18,7 @@ import { EventRefundComponent } from './event-refund/event-refund.component';
 import { MembershipChangeComponent } from './membership-change/membership-change.component';
 import { JobApplicationComponent } from './job-application/job-application.component';
 import { ViewEventComponent } from './view-event/view-event.component';
+import { EventSoldComponent } from './event-sold/event-sold.component';
 
 const routes: Routes = [
   {path: '', component:HomeComponent},
@@ -37,6 +38,7 @@ const routes: Routes = [
   {path: 'membership-change', component:MembershipChangeComponent},
   {path: 'job-application', component:JobApplicationComponent}, 
   {path: 'view-event', component:ViewEventComponent},
+  {path: 'event-sold', component:EventSoldComponent},
 
 
 ];
